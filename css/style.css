@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#parent{
+    width:600px;
+    min-height:500px;
+    border:1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-size:18px;
+    background-image: url(../images/Без\ названия.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#month{
+    width:590px;
+    height:100px;
+    text-align: center;
+    border:1px solid;
+    background-image: url(../images/background_image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#days{
+    width:590px;
+    height:50px;
+    /* flex-basis: calc(100%7px); */
+    text-align: center;
+    border:1px solid;
+}
+
+#tbl_days{
+    width:590px;
+    height:50px;
+}
+
+
+#dates{
+    width:590px;
+    height:500px;
+    text-align: center;
+    border:1px solid;
+}
+
+#tbl_dates{
+    width:590px;
+    height:500px;
+    /* border: 1px solid;
+    padding: 10px; */
+}
+
+
+.old_month{
+    opacity: 0.5;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.prev_button, .next_button{
+    width: 80px;
+    height: 30px;
+}
+
+.months_name{
+    font-size: 28px;
+    font-weight: 800px;
+}
